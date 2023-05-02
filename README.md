@@ -191,14 +191,14 @@ var (
 ### 1. 安装ginbuilder
 
 ```shell
-go install github.com/coderitx/ginbuilder
+go install github.com/coderitx/ginbuilder@latest
 ```
 
 ### 2. 创建项目
 ```shell
 # 项目会创建在 $GOPATH/src 下
 # 如果不指定pkg,则会默认使用app同名
-ginbuilder new -project ${project-name} --pkg ${project-package-name}
+ginbuilder -project ${project-name} -pkg ${project-package-name}
 ```
 
 ### 3. 启动
