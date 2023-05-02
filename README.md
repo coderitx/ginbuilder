@@ -212,7 +212,7 @@ go run main.go
 浏览器直接访问：
 - [hello](127.0.0.1:9999/api/hello)
 ```json
-{"code":0,"data":"hello ginbuilder","msg":"成功"}
+{"code":0,"data":"hello ${package name}","msg":"成功"}
 ```
 
 命令行直接访问
