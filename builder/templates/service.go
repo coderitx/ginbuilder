@@ -6,8 +6,16 @@ import (
 	"{{.pkgname}}/common/errorx"
 )
 
-func HelloService() errorx.ErrorCode{
-	return errorx.SuccessCode
+type HelloRequest struct{}
+
+type HelloResponse struct{
+	Message string #json:"message"#
+}
+
+func (r *HelloRequest) HelloService() (*HelloResponse,errorx.ErrorCode){
+	return &HelloResponse{
+		Message: "hello {{.pkgname}}",
+	},errorx.SuccessCode
 }
 
 `
