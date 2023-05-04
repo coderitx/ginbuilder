@@ -4,6 +4,7 @@ var ApiTemplate = `package apis
 
 import (
 	"{{.pkgname}}/apps/apis/hello"
+	"{{.pkgname}}/common/errorx"
 )
 
 type ApiGroup struct{

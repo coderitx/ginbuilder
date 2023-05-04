@@ -17,7 +17,7 @@ func init() {
 		panic(err)
 	}
 	global.GlobalC = c
-	// 如果需要使用数据库取消注视即可
+	// 如果需要使用数据库取消注释即可
 	//internal.InitDB(global.GlobalC.Mysql)
 	//internal.InitRedis(global.GlobalC.Redis)
 	logx.InitLogger(global.GlobalC.Log)
