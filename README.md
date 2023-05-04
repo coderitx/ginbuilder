@@ -1,4 +1,5 @@
 # ginbuilder
+- 项目创建完成会存在`$GOAPTH/src` 目录下
 - 快速创建一个ginweb项目： 目前apps下只有http服务，如果后续有需要的话，会添加上rpc服务，websocket服务
 - 后边如果有需要会添加上swagger
 
